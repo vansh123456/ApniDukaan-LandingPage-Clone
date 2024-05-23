@@ -14,18 +14,21 @@ import Sidebar from './components/Sidebar'
 function App() {
 
   return (
-    <div>
-      <Sidebar/>
-    <div className="border-b border-black-150 sm:pl-64 bg-white-500">
-        <TopBar/>
+    <div className="bg-white-50">
+      <Sidebar />
+
+      <div className="border-b border-black-150 sm:pl-64 bg-white-500">
+        <TopBar />
       </div>
-    <div className=" m-5 mb-0 sm:ml-64 grid gap-8">
+      
+      <div className=" m-5 mb-0 sm:ml-64 grid gap-8">
         <Overview />
         <div className="grid gap-6">
           <Transactions />
-          <Table/>
-         </div>
-    </div>
+          <Table />
+        </div>
+      </div>
+
     </div>
   )
 }

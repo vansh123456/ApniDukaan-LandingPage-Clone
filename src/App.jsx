@@ -5,13 +5,16 @@ import './App.css'
 import { RevenueCard } from './components/RevenueCard'
 import { BlueCard } from './components/BlueCard'
 import Overview from './components/Overview'
+import Transactions from './components/Transactions'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className=" m-5 mb-0 sm:ml-64 grid gap-8">
         <Overview />
+        <div className="grid gap-6">
+          <Transactions />
+         </div>
     </div>
   )
 }

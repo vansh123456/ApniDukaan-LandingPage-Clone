@@ -4,16 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { RevenueCard } from './components/RevenueCard'
 import { BlueCard } from './components/BlueCard'
+import Overview from './components/Overview'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='grid grid-cols-3'>
-      <BlueCard title ={"Next Payout"} amount={"2312.93"} orderCount={23}/>
-      <RevenueCard title={"Amount Pending"} amount={"92,312,20"} orderCount={13}/>
-      <RevenueCard title={"Amount Processed"} amount={"23,92,312.19"} orderCount={null}/>
-      
+    <div className=" m-5 mb-0 sm:ml-64 grid gap-8">
+        <Overview />
     </div>
   )
 }

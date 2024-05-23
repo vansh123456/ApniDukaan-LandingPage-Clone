@@ -8,16 +8,22 @@ import Overview from './components/Overview'
 import Transactions from './components/Transactions'
 import TableTop from './components/TableTop'
 import Table from './components/Table'
+import TopBar from './components/TopBar'
 
 function App() {
 
   return (
+    <div>
+    <div className="border-b border-black-150 sm:pl-64 bg-white-500">
+        <TopBar/>
+      </div>
     <div className=" m-5 mb-0 sm:ml-64 grid gap-8">
         <Overview />
         <div className="grid gap-6">
           <Transactions />
           <Table/>
          </div>
+    </div>
     </div>
   )
 }

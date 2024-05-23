@@ -6,7 +6,7 @@ export const BlueCard = ({
 
     return (
         <div className="rounded overflow-hidden text-white-500">
-            <div className="bg-white shadow-sm p-5 grid gap-y-4 bg-blue-700 hover:bg-blue-800">
+            <div className="bg-white shadow-sm p-5 grid gap-y-4 bg-blue-800 hover:bg-blue-900">
                 <div className="flex items-center text-white">
                     {title}
                 

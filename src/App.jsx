@@ -9,11 +9,13 @@ import Transactions from './components/Transactions'
 import TableTop from './components/TableTop'
 import Table from './components/Table'
 import TopBar from './components/TopBar'
+import Sidebar from './components/Sidebar'
 
 function App() {
 
   return (
     <div>
+      <Sidebar/>
     <div className="border-b border-black-150 sm:pl-64 bg-white-500">
         <TopBar/>
       </div>

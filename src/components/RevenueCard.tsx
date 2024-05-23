@@ -31,3 +31,4 @@ export const RevenueCard = ({
         </div>
     </div>
 }
+export default RevenueCard;

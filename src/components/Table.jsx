@@ -33,9 +33,9 @@ export const Table = () => {
                                 #{order.id}
                             </th>
                             <td className="px-6 py-4 flex items-center gap-2 text-black-600">
-                                { (order.status === "Successful") && <div classNameName='h-2.5 w-2.5 rounded-full bg-green-500'/>}
-                                { (order.status === "Processing") && <div classNameName='h-2.5 w-2.5 rounded-full bg-black-500'/>}
-                                { (order.status === "Failed") && <div classNameName='h-2.5 w-2.5 rounded-full bg-red-500'/>}
+                                { (order.status === "Successful") && <div className='h-2.5 w-2.5 rounded-full bg-green-500'/>}
+                                { (order.status === "Processing") && <div className='h-2.5 w-2.5 rounded-full bg-black-500'/>}
+                                { (order.status === "Failed") && <div className='h-2.5 w-2.5 rounded-full bg-red-500'/>}
                                 {order.status}
                             </td>
                             <td className="px-6 py-4 text-black-400">

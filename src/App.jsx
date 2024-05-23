@@ -7,6 +7,7 @@ import { BlueCard } from './components/BlueCard'
 import Overview from './components/Overview'
 import Transactions from './components/Transactions'
 import TableTop from './components/TableTop'
+import Table from './components/Table'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         <Overview />
         <div className="grid gap-6">
           <Transactions />
-          <TableTop/>
+          <Table/>
          </div>
     </div>
   )
